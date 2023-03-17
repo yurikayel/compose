@@ -4,7 +4,5 @@ import com.example.common.App
 
 
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication) {
-        App()
-    }
+    Window(onCloseRequest = ::exitApplication) { App() }
 }
